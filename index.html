@@ -1,24 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>HOME PAGE</title>
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,700|Ubuntu:300,400,500,700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="UTF-8">
+        <title>Bazinger Project</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css style/fontawesome.min.css">
+        <!-- slick css -->
+        <link rel="stylesheet" type="text/css" href="css style/slick.css">
+        <!-- /slick css -->
+
+        <!-- venobox css -->
+        <link rel="stylesheet" type="text/css" href="css style/venobox.min.css">
+        <!-- /venobox css -->
+
+        <!-- animate Css -->
+        <link rel="stylesheet" type="text/css" href="css style/animate.css">
+        <!-- /animate Css -->
+		
+		<!-- coustom css start -->
+        <link rel="stylesheet" href="css style/style.css">
+		<!-- /coustom css end -->
+		
     </head>
     <body>
-        <!-- header_one html start -->
-        <header id="header_one">
+        <!-- preloader html start -->
+        <div class="load">
+            <hr/><hr/><hr/><hr/>
+          </div>
+        <!-- preloader html start -->
+
+        <!-- Header start -->
+        <header id="header" class="stickymenu">
             <div class="container">
                 <div class="row">
-                    <p>Welcome to our Company</p>
-                    <p class="header_one_right">Opening Hour: 08:00 a.m to 10:00 p.m</p>
+                    <div class="logo wow bounceInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <a href="index.html">
+                            <img src="img/Bazinger.logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s">
+                       <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#banner_2">FEATURES</a></li>
+                            <li><a href="#banner_2_2">GALLERY</a></li>
+                            <li><a href="#banner_3">VIDEO</a></li>
+                            <li><a href="#banner_4">PRICES</a></li>
+                            <li><a href="#testimonials">TESTIMONIALS</a></li>
+                            <li><a href="#banner_5">DOWNLOAD</a></li>
+                            <li><a href="#banner_6">CONTACT</a></li>
+                        </ul> 
+                    </div>
                 </div>
             </div>
         </header>
-        <!-- header_one html end -->
+        <!-- Header End -->
+        <!-- Banner-1 Css Start -->
+        <section id="banner">
+            <div class="banner_item" style="background-image: url(img/bannerr.jpg);">
+                <div class="container">
+                    <div class="banner_section">
+                        <h2>Simple,Beautiful 
+                            <span>and Amazing</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                        <div class="banner_btn">
+                            <a href="#" class="banner_dnld_btn">DOWNLODE</a>
+                            <a href="#" class="banner_lrn_btn">LEARN MORE</a>
+                        </div>
+                        <div class="apps_link_btn">
+                                <p>Aavailable on :</p>
+                                <img src="img/apple.icon.png">
+                                <img src="img/androde.icon.png">
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_item" style="background-image: url(img/bannerrr.jpg);">
+                <div class="container">
+                    <div class="banner_section">
+                        <h2>Simple,Beautiful 
+                            <span>and Amazing</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                        <div class="banner_btn">
+                            <a href="#" class="banner_dnld_btn">DOWNLODE</a>
+                            <a href="#" class="banner_lrn_btn">LEARN MORE</a>
+                        </div>
+                        <div class="apps_link_btn">
+                                <p>Aavailable on :</p>
+                                <img src="img/apple.icon.png">
+                                <img src="img/androde.icon.png">
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_item" style="background-image: url(img/bannerrrr.jpg);">
+                <div class="container">
+                    <div class="banner_section">
+                        <h2>Simple,Beautiful 
+                            <span>and Amazing</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                        <div class="banner_btn">
+                            <a href="#" class="banner_dnld_btn">DOWNLODE</a>
+                            <a href="#" class="banner_lrn_btn">LEARN MORE</a>
+                        </div>
+                        <div class="apps_link_btn">
+                                <p>Aavailable on :</p>
+                                <img src="img/apple.icon.png">
+                                <img src="img/androde.icon.png">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner-1 Css end -->
+        <!-- Banner-2 Css Start -->
+        <section id="banner_2">
+            <div class="container">
+                <div class="banner_2_container">
+                <div class="headding">
+                    <h3>summarise the features</h3>
+                    <p>summarise what your product is all about </p>
+                </div>
+                <div class="row">
+                    <div class="banner_2_contain wow bounceInLeft" data-wow-duration="0.5s" data-wow-delay="1s">
+                        <div class="about_item">
+                            <i class="fab fa-buffer"></i>
+                            <h4>Attractive Layout</h4>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    <div class="banner_2_contain wow bounceInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <div class="about_item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Fresh Design</h4>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar..</p>
+                        </div>
+                    </div>
+                    <div class="banner_2_contain wow bounceInDown" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <div class="about_item">
+                            <i class="far fa-comments"></i>
+                            <h4>multipurpose</h4>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    <div class="banner_2_contain wow bounceInRight" data-wow-duration="0.5s" data-wow-delay="1s">
+                        <div class="about_item">
+                            <i class="far fa-comment-alt"></i>
+                            <h4>Easy to customize</h4>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="banner_2_2">
+                <div class="headding">
+                    <h3>show the gallery</h3>
+                    <p>summarise what your product is all about </p>
+                </div>
+                <div class="row">
+                    <div class="screenshort">
+                        <div class="screenshort-1">
+                            <img src="img/img1.jpg">
+                            <a class="venobox" data-gall="work_gallery" href="img/bannerr.jpg"><h4>SREENSHORT-1</h4></a>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    <div class="screenshort">
+                        <div class="screenshort-1">
+                            <img src="img/img2.jpg">
+                            <a class="venobox" data-gall="work_gallery" href="img/bannerrr.jpg"><h4>SREENSHORT-2</h4><h4>SREENSHORT-2</h4></a>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    <div class="screenshort">
+                        <div class="screenshort-1">
+                            <img src="img/img3.jpg">
+                            <a class="venobox" data-gall="work_gallery" href="img/bannerrrr.jpg"><h4>SREENSHORT-3</h4></a>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    <div class="screenshort">
+                        <div class="screenshort-1">
+                            <img src="img/img4.jpg">
+                            <a class="venobox" data-gall="work_gallery" href="img/bannerr.jpg"><h4>SREENSHORT-4</h4></a>
+                            <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner-2 End -->
+        <!-- Banner-3 Start -->
+        <section id="banner_3">
+            <div class="container">
+                <div class="banner_3_contain">
+                <h2>Watch the best Technology in 
+                    <span>Action</span>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Banner-3 End -->
+        <!-- banner-4 start-->
+        <section id="banner_4">
+            <div class="container">
+                <div class="price">
+                    <div class="headding">
+                        <h3>choose your price</h3>
+                        <p>summarise what your product is all about </p>
+                    </div>
+                    <div class="row">
+                        <div class="price_box">
+                            <h3>basic package</h3>
+                            <div class="first_price">
+                                <p><span class="counter">20</span><span>$</span></p>
+                            </div>
+                            <ul>
+                                <li>Nullam suscipit vitae</li>
+                                <li>Etiam faucibus</li>
+                                <li>Vivamus viverra</li>
+                            </ul>
+                            <button type="submit" class="button_1">PURCHASE</button>
+                        </div>
+                        <div class="price_box">
+                            <div class="professonal">
+                                    <h3>professional package</h3>
+                                <div class="second_price">
+                                    <p><span class="counter">25</span><span>$</span></p>
+                                </div>
+                                <ul>
+                                    <li>Nullam suscipit vitae</li>
+                                    <li>Etiam faucibus</li>
+                                    <li>Vivamus viverra</li>
+                                    <li>Praesent pharetra</li>
+                                </ul>
+                            </div>
+                            <button type="submit" class="button_2">PURCHASE</button>
+                        </div>
+                        <div class="price_box">
+                            <h3>Advanced package</h3>
+                            <div class="third_price">
+                                <p><span class="counter">20</span><span>$</span></p>
+                            </div>
+                            <ul>
+                                <li>Nullam suscipit vitae</li>
+                                <li>Etiam faucibus</li>
+                                <li>Vivamus viverra</li>
+                            </ul>
+                            <button type="submit" class="button_3">PURCHASE</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="testimonials">
+                    <div class="heading wow bounceInLeft">
+                        <h3>Testimonials</h3>
+                    </div>
+                     <div class="row testimonials_contain">
+                        <div class="img wow bounceInLeftwow bounceInUp">
+                            <img src="img/man.img">
+                        </div>
+                        <div class="narration wow bounceInRight">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Praesent lobortis lectus eget libero blandit venenatis. 
+                                In blandit tortor vel congue malesuada. Suspendisse 
+                                molestie lobortis lorem dignissim   
+                            </p>
+                            <p class="johan">Johan Doe</p>
+                            <p class="some_c">from some company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner-4 end-->
+        <!-- banner-5 start-->
+        <section id="banner_5">
+            <div class="headding">
+                <h2 class="wow bounceInLeft"  data-wow-duration="1s" data-wow-delay="1s">Do you Like this app?</h2>
+                <button type="button" class="banner_5_button wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s">DOWNLOAD NOW</button>
+            </div>
+        </section>
+        <!-- banner-5 end-->
+        <!-- banner-6 end-->
+        <section id="banner_6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14738.685848069128!2d91.829711772627!3d22.55397661307585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2a7ba4ba33b7%3A0x28ba00eb8518e4f8!2sNangalmora!5e0!3m2!1sen!2sbd!4v1586082303880!5m2!1sen!2sbd"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            
+            <div class="contact_form wow animate__zoomIn">
+                <h3>CONTACT</h3>
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit" class="sent">Sent</button>
+                </form>
+            </div>
+        </section>
+        <!-- banner-6 end-->
+        <!--last section start-->
+        <section id="last_section">
+            <div class="container">
+                <div class="row">
+                    <div class="copyright">
+                        <h5>Copyright © 2013 | bazinger | All Rights Reserved</h5>
+                    </div>
+                    <div class="terms">
+                        <h5>Terms of Service | Privacy Policy</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--last section end-->
+        <!-- Bottom Top Button Start -->
+        <button class="bottomTop">
+            <i class="fa fa-chevron-up"></i>
+        </button>
+        <!-- Bottom Top Button End -->
+
         <!-- Jquery Code Link Start -->
+
+        <!-- Jquery Js -->
         <script src="js/jquery-1.12.4.min.js"></script>
+        
+        <!-- Slick Js -->
+        <script src="js/slick.min.js"></script>
+
+        <!-- Venobox Js -->
+        <script src="js/venobox.min.js"></script>
+
+        <!-- waypoint Js -->
+        <script src="js/waypoints.min.js"></script>
+
+        <!-- counter up Js -->
+        <script src="js/counterup.min.js"></script>
+
+        <!-- wow Js -->
+        <script src="js/wow.min.js"></script>
+
+        <!-- custom Js -->
         <script src="js/script.js"></script>
+
         <!-- Jquery Code Link End -->
     </body>
 </html>
